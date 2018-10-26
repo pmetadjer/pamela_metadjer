@@ -16,6 +16,9 @@ fish_data_cat
 
 ggplot(fish_data_cat, aes(x=scalelength, fill = length_cat)) + 
   geom_histogram(bins = 10)
+
+ggplot(fish_data_cat, aes(x=scalelength, fill = length_cat)) + 
+  geom_scatterplot(bins = 10)
         
 #CLASS NOTES
 
